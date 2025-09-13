@@ -1,0 +1,13 @@
+# Netlify重定向规则
+# 用于部署到 mygentool.com/snakegame
+
+# 重定向根路径到snakegame
+/ /snakegame/ 301
+
+# 处理单页应用路由
+/snakegame/* /snakegame/index.html 200
+
+# 静态资源缓存
+/snakegame/*.js /snakegame/index.html 200
+/snakegame/*.css /snakegame/index.html 200
+/snakegame/*.html /snakegame/index.html 200
