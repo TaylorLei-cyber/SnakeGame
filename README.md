@@ -1,53 +1,53 @@
-# 🐍 贪吃蛇游戏
+# 🐍 Snake Game
 
-一个使用纯 Web 技术（HTML5 + CSS3 + JavaScript）开发的现代化贪吃蛇游戏。
+A modern Snake game built with pure web technologies (HTML5 + CSS3 + JavaScript).
 
-## ✨ 功能特性
+## ✨ Features
 
-- 🎮 **经典玩法**：控制蛇移动，吃食物，避免撞墙和撞到自己
-- ⚡ **速度控制**：1-10级速度调节，支持实时调整
-- 🎯 **计分系统**：实时计分，最高分记录保存
-- 🎨 **现代UI**：渐变背景，响应式设计，移动设备友好
-- ⌨️ **多种控制**：键盘方向键 + 按钮控制
-- 🎛️ **游戏状态**：开始、暂停、重新开始功能
+- 🎮 **Classic Gameplay**: Control the snake to eat food, avoid walls and self-collision
+- ⚡ **Speed Control**: 1-10 level speed adjustment with real-time control
+- 🎯 **Scoring System**: Real-time scoring with high score persistence
+- 🎨 **Modern UI**: Gradient backgrounds, responsive design, mobile-friendly
+- ⌨️ **Multiple Controls**: Arrow keys + button controls
+- 🎛️ **Game States**: Start, pause, and restart functionality
 
-## 🚀 在线体验
+## 🚀 Live Demo
 
-[点击这里在线体验游戏](https://yourusername.github.io/snakeGame)
+[Click here to play the game online](https://taylorlei-cyber.github.io/SnakeGame/)
 
-## 🎮 操作说明
+## 🎮 How to Play
 
-- **开始游戏**：点击"开始游戏"按钮或按空格键
-- **控制移动**：使用方向键（↑↓←→）控制蛇的移动
-- **暂停/继续**：按空格键或点击暂停按钮
-- **调整速度**：使用滑动条或预设按钮调整游戏速度
-- **重新开始**：点击重新开始按钮
+- **Start Game**: Click "Start Game" button or press SPACE
+- **Control Movement**: Use arrow keys (↑↓←→) to control the snake
+- **Pause/Resume**: Press SPACE or click pause button
+- **Adjust Speed**: Use slider or preset buttons to adjust game speed
+- **Restart**: Click restart button
 
-## 🛠️ 技术栈
+## 🛠️ Tech Stack
 
-- **HTML5**：语义化结构，Canvas 2D 渲染
-- **CSS3**：现代样式，渐变效果，响应式布局
-- **JavaScript ES6**：面向对象设计，事件驱动
-- **LocalStorage**：最高分数据持久化
+- **HTML5**: Semantic structure, Canvas 2D rendering
+- **CSS3**: Modern styling, gradient effects, responsive layout
+- **JavaScript ES6**: Object-oriented design, event-driven
+- **LocalStorage**: High score data persistence
 
-## 📱 兼容性
+## 📱 Compatibility
 
 - ✅ Chrome 60+
 - ✅ Firefox 55+
 - ✅ Safari 12+
 - ✅ Edge 79+
-- ✅ 移动端浏览器
+- ✅ Mobile browsers
 
-## 🎯 游戏规则
+## 🎯 Game Rules
 
-1. 控制蛇移动吃红色的食物
-2. 每吃一个食物得 10 分，蛇身变长
-3. 撞到墙壁或自己的身体游戏结束
-4. 挑战自己的最高分记录！
+1. Control the snake to eat red food
+2. Each food gives 10 points and makes the snake longer
+3. Game ends when hitting walls or the snake's own body
+4. Challenge your high score record!
 
-## 📄 开源协议
+## 📄 License
 
-MIT License - 可自由使用、修改和分发
+MIT License - Free to use, modify and distribute
 
 ---
 

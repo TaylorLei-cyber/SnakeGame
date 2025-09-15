@@ -109,7 +109,7 @@ class SnakeGame {
             }
             
             this.gameLoop();
-            document.getElementById('startBtn').textContent = '游戏中...';
+            document.getElementById('startBtn').textContent = 'Playing...';
             document.getElementById('startBtn').disabled = true;
         }
     }
@@ -117,7 +117,7 @@ class SnakeGame {
     togglePause() {
         if (this.gameRunning) {
             this.gamePaused = !this.gamePaused;
-            document.getElementById('pauseBtn').textContent = this.gamePaused ? '继续' : '暂停';
+            document.getElementById('pauseBtn').textContent = this.gamePaused ? 'Resume' : 'Pause';
             
             if (!this.gamePaused) {
                 this.gameLoop();
@@ -135,9 +135,9 @@ class SnakeGame {
         this.food = this.generateFood();
         
         document.getElementById('gameOver').style.display = 'none';
-        document.getElementById('startBtn').textContent = '开始游戏';
+        document.getElementById('startBtn').textContent = 'Start Game';
         document.getElementById('startBtn').disabled = false;
-        document.getElementById('pauseBtn').textContent = '暂停';
+        document.getElementById('pauseBtn').textContent = 'Pause';
         
         this.updateDisplay();
         this.draw();
@@ -267,9 +267,9 @@ class SnakeGame {
         // 显示游戏结束界面
         document.getElementById('finalScore').textContent = this.score;
         document.getElementById('gameOver').style.display = 'block';
-        document.getElementById('startBtn').textContent = '开始游戏';
+        document.getElementById('startBtn').textContent = 'Start Game';
         document.getElementById('startBtn').disabled = false;
-        document.getElementById('pauseBtn').textContent = '暂停';
+        document.getElementById('pauseBtn').textContent = 'Pause';
         
         this.updateDisplay();
     }

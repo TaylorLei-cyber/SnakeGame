@@ -1,7 +1,7 @@
 {
   "name": "snake-game",
   "version": "1.0.0",
-  "description": "A modern Snake game built with HTML5, CSS3, and JavaScript",
+  "description": "A modern Snake game built with HTML5, CSS3, and JavaScript - English version",
   "main": "index.html",
   "scripts": {
     "start": "python3 -m http.server 8000",

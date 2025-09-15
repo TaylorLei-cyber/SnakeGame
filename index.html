@@ -1,60 +1,60 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>贪吃蛇游戏</title>
+    <title>Snake Game</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="game-container">
         <div class="game-header">
-            <h1>贪吃蛇游戏</h1>
+            <h1>Snake Game</h1>
             <div class="score-board">
-                <div class="score">得分: <span id="score">0</span></div>
-                <div class="high-score">最高分: <span id="high-score">0</span></div>
+                <div class="score">Score: <span id="score">0</span></div>
+                <div class="high-score">High Score: <span id="high-score">0</span></div>
             </div>
         </div>
         
         <div class="game-area">
             <canvas id="gameCanvas" width="400" height="400"></canvas>
             <div class="game-over" id="gameOver">
-                <h2>游戏结束!</h2>
-                <p>你的得分: <span id="finalScore">0</span></p>
-                <button id="restartBtn">重新开始</button>
+                <h2>Game Over!</h2>
+                <p>Your Score: <span id="finalScore">0</span></p>
+                <button id="restartBtn">Play Again</button>
             </div>
         </div>
         
         <div class="controls">
             <div class="control-info">
-                <p>点击"开始游戏"或按空格键开始</p>
-                <p>使用方向键控制蛇的移动</p>
-                <p>按空格键暂停/继续游戏</p>
+                <p>Click "Start Game" or press SPACE to begin</p>
+                <p>Use arrow keys to control the snake</p>
+                <p>Press SPACE to pause/resume the game</p>
             </div>
             
             <div class="speed-control">
-                <label for="speedSlider">游戏速度:</label>
+                <label for="speedSlider">Game Speed:</label>
                 <div class="speed-slider-container">
                     <input type="range" id="speedSlider" min="1" max="10" value="5" step="1">
                     <div class="speed-labels">
-                        <span>慢</span>
+                        <span>Slow</span>
                         <span id="speedValue">5</span>
-                        <span>快</span>
+                        <span>Fast</span>
                     </div>
                 </div>
                 <div class="speed-presets">
-                    <button class="speed-preset" data-speed="1">很慢</button>
-                    <button class="speed-preset" data-speed="3">慢</button>
-                    <button class="speed-preset" data-speed="5">中等</button>
-                    <button class="speed-preset" data-speed="7">快</button>
-                    <button class="speed-preset" data-speed="10">很快</button>
+                    <button class="speed-preset" data-speed="1">Very Slow</button>
+                    <button class="speed-preset" data-speed="3">Slow</button>
+                    <button class="speed-preset" data-speed="5">Medium</button>
+                    <button class="speed-preset" data-speed="7">Fast</button>
+                    <button class="speed-preset" data-speed="10">Very Fast</button>
                 </div>
             </div>
             
             <div class="control-buttons">
-                <button id="startBtn">开始游戏</button>
-                <button id="pauseBtn">暂停</button>
-                <button id="restartBtn2">重新开始</button>
+                <button id="startBtn">Start Game</button>
+                <button id="pauseBtn">Pause</button>
+                <button id="restartBtn2">Restart</button>
             </div>
         </div>
     </div>

@@ -2,6 +2,19 @@
   publish = "."
   command = "echo 'No build command needed'"
 
+# 重定向规则 - 支持 mygentool.com/snakegame 路径
+[[redirects]]
+  from = "/snakegame/*"
+  to = "/:splat"
+  status = 200
+
+# 处理根路径重定向
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+# 处理单页应用路由
 [[redirects]]
   from = "/*"
   to = "/index.html"
